@@ -26,7 +26,7 @@
         "boop.wav"
       ],
       "matches": [
-        "*://*/*"
+        "https://*.incidentIQ.com/*"
       ]
     }
   ],
@@ -35,6 +35,6 @@
     "webRequest"
   ],
   "host_permissions": [
-    "*://*/*"
+    "https://*.incidentIQ.com/*"
   ]
 }
