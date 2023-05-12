@@ -23,10 +23,7 @@
     {
       "resources": [
         "valid.mp3",
-        "boop.wav",
-        "playsound_boop.html",
-        "playsound_boop.js",
-        "playsound_valid.js"
+        "boop.wav"
       ],
       "matches": [
         "*://*/*"
