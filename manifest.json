@@ -11,7 +11,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*/*"
+        "https://*.incidentiq.com/*"
       ],
       "js": [
         "content_script.js"
@@ -26,7 +26,7 @@
         "boop.wav"
       ],
       "matches": [
-        "*://*/*"
+        "https://*.incidentiq.com/*"
       ]
     }
   ],
@@ -35,6 +35,6 @@
     "webRequest"
   ],
   "host_permissions": [
-    "*://*/*"
+    "https://*.incidentiq.com/*"
   ]
 }
