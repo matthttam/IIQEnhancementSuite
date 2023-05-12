@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "IIQ RapidScan Sounds",
+  "short_name": "IIQRapidScanSounds",
+  "description": "Plays sounds when scanning an assets during rapid scanning.",
+  "icons": {},
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ],
+  "minimum_chrome_version": "109",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "valid.mp3",
+        "boop.wav"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
