@@ -4,6 +4,7 @@
   "name": "IIQ RapidScan Sounds",
   "short_name": "IIQRapidScanSounds",
   "description": "Plays sounds when scanning an assets during rapid scanning.",
+  "icons": {},
   "version": "1.0.0",
   "background": {
     "service_worker": "background.js"
