@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "IIQ RapidScan Sounds",
-  "short_name": "IIQRapidScanSounds",
-  "description": "Plays sounds when scanning an assets during rapid scanning.",
+  "name": "IIQ Enhancement Suite",
+  "short_name": "IIQ ES",
+  "description": "This extension adds additional functionality to the IncidentIQ web application.",
   "icons": {},
-  "version": "1.0.2",
+  "version": "1.1.0",
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "lib/js/background.js"
   },
   "content_scripts": [
     {
@@ -14,16 +14,25 @@
         "https://*.incidentiq.com/*"
       ],
       "js": [
-        "content_script.js"
+        "lib/js/content_script.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://*.incidentiq.com/agent/assets/*"
+      ],
+      "js": [
+        "lib/js/content_script_assets.js"
       ]
     }
   ],
+  "options_page": "lib/options/options.html",
   "minimum_chrome_version": "109",
   "web_accessible_resources": [
     {
       "resources": [
-        "valid.mp3",
-        "boop.wav"
+        "lib/media/valid.mp3",
+        "lib/media/boop.wav"
       ],
       "matches": [
         "https://*.incidentiq.com/*"
@@ -32,7 +41,9 @@
   ],
   "permissions": [
     "activeTab",
-    "webRequest"
+    "webRequest",
+    "storage",
+    "clipboardWrite"
   ],
   "host_permissions": [
     "https://*.incidentiq.com/*"
