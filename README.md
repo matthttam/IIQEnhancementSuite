@@ -11,6 +11,9 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 - Adds sounds to RapidScan
 
 ## Version History
+### 1.1.1
+- Added icons
+- Fixed a bug that prevented features from working.
 ### 1.1.0
 - Added copy button functionality
 - Added Options page to allow users to disable features they don't want
