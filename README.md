@@ -11,6 +11,8 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 - Adds sounds to RapidScan
 
 ## Version History
+### 1.1.2
+- Fixed file paths so the sounds work again.
 ### 1.1.1
 - Added icons
 - Fixed a bug that prevented features from working.
