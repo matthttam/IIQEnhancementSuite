@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IIQ Enhancement Suite Options</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="options.css">
+  </head>
+  <body>
+  <div class="container">
+    <header>
+      <h1>IIQ Enhancement Suite Options</h1>
+    </header>
+    <form>
+      <div class="subheader">
+        Assets
+      </div>
+      <label>
+        <span class="toggle-switch">
+          <input type="checkbox" name="IIQAssets_CopyButtons" id="IIQAssets_CopyButtons" checked>
+          <span class="toggle-switch-label"></span>
+        </span>
+        <span class="option-description">Creates copy buttons next to Asset Tag and Serial information on asset pages.</span>
+      </label>
+      <div class="subheader">
+        RapidScan
+      </div>
+      <label>
+        <span class="toggle-switch">
+          <input type="checkbox" name="IIQRS_SoundEffects" id="IIQRS_SoundEffects" checked>
+          <span class="toggle-switch-label"></span>
+        </span>
+        <span class="option-description">Enables or disables the sound effects while using RapidScan.</span>
+      </label>
+    </form>
+  </div>
+  <div class="container">
+  <div id="status"></div>
+  <button id="save">Save</button>
+  <script src="options.js"></script>
+  </div>
+  </body>
+</html>

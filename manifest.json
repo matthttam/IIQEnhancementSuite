@@ -3,8 +3,11 @@
   "name": "IIQ Enhancement Suite",
   "short_name": "IIQ ES",
   "description": "This extension adds additional functionality to the IncidentIQ web application.",
-  "icons": {},
-  "version": "1.1.0",
+  "icons": {
+    "48": "lib/media/icons/icon48.png",
+    "128": "lib/media/icons/icon128.png"
+  },
+  "version": "1.1.1",
   "background": {
     "service_worker": "lib/js/background.js"
   },
@@ -31,8 +34,8 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "lib/media/valid.mp3",
-        "lib/media/boop.wav"
+        "lib/media/audio/valid.mp3",
+        "lib/media/audio/boop.wav"
       ],
       "matches": [
         "https://*.incidentiq.com/*"
