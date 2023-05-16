@@ -17,7 +17,8 @@
         "https://*.incidentiq.com/*"
       ],
       "js": [
-        "lib/js/content_script.js"
+        "lib/js/content_script.js",
+        "lib/js/config.js"
       ]
     },
     {
@@ -35,7 +36,8 @@
     {
       "resources": [
         "lib/media/audio/valid.mp3",
-        "lib/media/audio/boop.wav"
+        "lib/media/audio/boop.wav",
+        "lib/js/config.js"
       ],
       "matches": [
         "https://*.incidentiq.com/*"
