@@ -11,6 +11,9 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 - Adds sounds to RapidScan
 
 ## Version History
+### 1.1.3
+- Added auto focus student box during batch check out.
+- Default options now apply properly fixing a bug where features wouldn't work until you saved options once.
 ### 1.1.2
 - Fixed file paths so the sounds work again.
 ### 1.1.1
