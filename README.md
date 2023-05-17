@@ -9,6 +9,8 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 - Adds a copy button for the asset and serial
 ### RapidScan
 - Adds sounds to RapidScan
+### Batch Check In
+- Auto focus the device field after scanning storage box
 
 ## Version History
 ### 1.1.4
