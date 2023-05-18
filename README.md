@@ -13,6 +13,11 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 - Auto focus the device field after scanning storage box
 
 ## Version History
+### 1.1.5
+- Fixed Issue 6 - Batch Check In focuses device box early if manually typing in
+- Fixed Issue 5 - Options not saving
+- Fixed Issue 4 - Loading an Asset Twice May Cause Duplicate Copy Buttons
+- Refactored code to work more efficiently
 ### 1.1.4
 - Fixed an error caused by improperly importing the config file in the options page.
 ### 1.1.3
