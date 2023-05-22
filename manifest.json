@@ -23,7 +23,7 @@
     },
     {
       "matches": [
-        "https://*.incidentiq.com/agent/assets/*"
+        "https://*.incidentiq.com/*"
       ],
       "js": [
         "lib/js/content_script_assets.js"
