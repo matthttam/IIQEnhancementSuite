@@ -18,14 +18,7 @@
       ],
       "js": [
         "lib/js/content_script.js",
-        "lib/js/common.js"
-      ]
-    },
-    {
-      "matches": [
-        "https://*.incidentiq.com/*"
-      ],
-      "js": [
+        "lib/js/common.js",
         "lib/js/content_script_assets.js"
       ]
     }
