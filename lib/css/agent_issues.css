@@ -1,7 +1,3 @@
-.IIQES_hide {
-    display: none;
-}
-
-ul.issues-list>li:not(:has(input:checked)) {
+ul.issues-list>li:not(:has(input:checked)):not(.IIQES_show-issues) {
     display: none;
 }
