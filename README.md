@@ -11,8 +11,12 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 - Adds sounds to RapidScan
 ### Batch Check In
 - Auto focus the device field after scanning storage box
-
+### Administration > Issues > Models
+- Hide unused categories and issues when modifying issues for device models
 ## Version History
+### 1.1.6
+- Fixed Issue 8 - Copy links not loading
+- Refactored code to prevent namespace collisions between content scripts
 ### 1.1.5
 - Fixed Issue 6 - Batch Check In focuses device box early if manually typing in
 - Fixed Issue 5 - Options not saving
