@@ -7,7 +7,7 @@
     "48": "lib/media/icons/icon48.png",
     "128": "lib/media/icons/icon128.png"
   },
-  "version": "1.1.5",
+  "version": "1.1.6",
   "background": {
     "service_worker": "lib/js/background.js"
   },
@@ -18,15 +18,19 @@
       ],
       "js": [
         "lib/js/content_script.js",
-        "lib/js/common.js"
+        "lib/js/common.js",
+        "lib/js/content_script_assets.js"
       ]
     },
     {
       "matches": [
-        "https://*.incidentiq.com/agent/assets/*"
+        "https://*.incidentiq.com/agent/issues*"
       ],
       "js": [
-        "lib/js/content_script_assets.js"
+        "lib/js/content_script_agent_issues.js"
+      ],
+      "css": [
+        "lib/css/agent_issues.css"
       ]
     }
   ],
