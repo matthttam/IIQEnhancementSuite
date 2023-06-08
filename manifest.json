@@ -21,6 +21,17 @@
         "lib/js/common.js",
         "lib/js/content_script_assets.js"
       ]
+    },
+    {
+      "matches": [
+        "https://*.incidentiq.com/agent/issues*"
+      ],
+      "js": [
+        "lib/js/content_script_agent_issues.js"
+      ],
+      "css": [
+        "lib/css/agent_issues.css"
+      ]
     }
   ],
   "options_page": "lib/options/options.html",
