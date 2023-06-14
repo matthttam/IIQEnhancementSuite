@@ -12,8 +12,13 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 ### Batch Check In
 - Auto focus the device field after scanning storage box
 ### Administration > Issues > Models
-- Hide unused categories and issues when modifying issues for device models
+- Hide unused categories of issues and unused resolution actions when configuring these options. A toggle button is present to show the unused options.
 ## Version History
+### 1.1.7
+- Fixed Issue 10 - Issue hiding hides on other issue tabs
+- Allows issue filtering for all issue tabs, not just model issues.
+- Correctly handles when the model issue list or the resolution action list uses the search feature
+- Refactored to improve efficiency and readability
 ### 1.1.6
 - Fixed Issue 8 - Copy links not loading
 - Refactored code to prevent namespace collisions between content scripts
