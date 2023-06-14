@@ -1,3 +1,4 @@
-ul.IIQES_issue-list.issues-list>li:not(:has(input:checked)):not(.IIQES_show-issues) {
+ul.IIQES_issue-list.items-list>li:not(:has(span.ui-select-highlight)):not(:has(input:checked)):not(.IIQES_show-issues):not(.category-new),
+ul.IIQES_issue-list.issues-list>li:not(:has(span.ui-select-highlight)):not(:has(input:checked)):not(.IIQES_show-issues):not(.category-new) {
     display: none;
 }
