@@ -1,0 +1,3 @@
+li:has(div[title="_"]):not(:has(ul)) {
+    display: none
+}
