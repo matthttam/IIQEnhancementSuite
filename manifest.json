@@ -24,7 +24,7 @@
     },
     {
       "matches": [
-        "https://*.incidentiq.com/agent/issues*"
+        "https://*.incidentiq.com/*"
       ],
       "js": [
         "lib/js/content_script_agent_issues.js"
