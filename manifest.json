@@ -19,15 +19,9 @@
       "js": [
         "lib/js/content_script.js",
         "lib/js/common.js",
-        "lib/js/content_script_assets.js"
-      ]
-    },
-    {
-      "matches": [
-        "https://*.incidentiq.com/*"
-      ],
-      "js": [
-        "lib/js/content_script_agent_issues.js"
+        "lib/js/content_script_assets.js",
+        "lib/js/content_script_agent_issues.js",
+        "lib/js/content_script_ticket_title.js"
       ],
       "css": [
         "lib/css/agent_issues.css"
