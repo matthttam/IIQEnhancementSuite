@@ -14,6 +14,9 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 ### Administration > Issues > Models
 - Hide unused categories of issues and unused resolution actions when configuring these options. A toggle button is present to show the unused options.
 ## Version History
+### 1.1.9
+- Added feature to always show ticket # in the title of the page
+- Fixed Issue 13 - Issues feature not always loading
 ### 1.1.8
 - Fixed Issue 11 - Issue hiding hides new categories for issue types besides models.
 ### 1.1.7
