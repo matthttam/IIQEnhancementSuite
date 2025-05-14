@@ -14,6 +14,8 @@ I am an independent developer and I am not affiliated in any way with incidentIQ
 ### Administration > Issues > Models
 - Hide unused categories of issues and unused resolution actions when configuring these options. A toggle button is present to show the unused options.
 ## Version History
+### 1.2.0
+- Fixed Issue 15 - Copy button not working on asset details page
 ### 1.1.9
 - Added feature to always show ticket # in the title of the page
 - Fixed Issue 13 - Issues feature not always loading
